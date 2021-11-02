@@ -1,0 +1,23 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "workSpaceName": {
+            "value": "sxx-az-wvdws-weu-x-001"
+        },
+        "location": {
+            "value": "eastus"
+        },
+        "appGroupResourceIds": {
+            "value": [
+                "/subscriptions/b840b49e-b459-4d33-95a6-0582d9a8048d/resourceGroups/validation-rg/providers/Microsoft.DesktopVirtualization/applicationgroups/sxx-az-wvdag-weu-x-001"
+            ]
+        },
+        "workspaceFriendlyName": {
+            "value": "My first WVD Workspace"
+        },
+        "workspaceDescription": {
+            "value": "This is my first WVD Workspace"
+        }
+    }
+}
